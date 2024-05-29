@@ -133,13 +133,14 @@ main .container {padding-top: 54px;}
 .top {
     height: 840px;
     width: 100%;
-    background-image: url(/img/bg.jpeg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
+.top img {
+    width: 480px;
+    height: 720px;
+}
 .title-section {
     display: flex;
     justify-content: center;
