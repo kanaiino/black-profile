@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="dropdown">
+            <div class="dropdown-btn">
+                <button class="dropbtn">Навигатор</button>
+                <div class="arrow"><img src="icon/up-down.svg" alt="updown"></div>
+            </div>
+            <div class="dropdown-content">
+                <a href="#info">информация</a>
+                <a href="#frame">рамки</a>
+                <a href="#wallpaper">фоны</a>
+                <a href="#">фоны мини-профиля</a>
+                <a href="#">особый профиль</a>
+                <a href="#">значки</a>
+                <a href="#">иллюстрация</a>
+                <a href="#">полезное</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="top">
+                <div class="title-section">
+                    <h1>Не гуль, а ценитель чёрного</h1>
+                </div>
+            </div>
+            <div id="info"></div>
+            <div class="video-section">
+                <div class="left-side">
+                    <h2>Я</h2>
+                    <hr class="hr-line">
+                    <div class="ls-content">
+                        <div class="my-link">
+                            <div class="my-link-item">
+                                <img src="icon/youtube.svg" target="_blank" alt="youtube">
+                                <a href="https://www.youtube.com/@kanaiino" target="_blank">YouTube</a>
+                            </div>
+                            <div class="my-link-item">
+                                <img src="icon/discord.svg" target="_blank" alt="discord">
+                                <a href="#">Discord</a>
+                            </div>
+                            <div class="my-link-item">
+                                <img src="icon/steam.svg" alt="steam">
+                                <a href="https://steamcommunity.com/id/kanaiino/" target="_blank">Steam</a>
+                            </div>
+                            <div class="my-link-item">
+                                <img src="icon/steam.svg" alt="steam">
+                                <a href="https://steamcommunity.com/id/f2d4e0/" target="_blank">Steam (cs)</a>
+                            </div>
+                            <div class="my-link-item">
+                                <img src="icon/gift.svg" alt="gift">
+                                <a href="https://steamcommunity.com/tradeoffer/new/?partner=1134914555&token=LtLg-Qjd"
+                                    target="_blank">Trade</a>
+                            </div>
+                        </div>
+                        <div class="my-info">
+                            <div class="my-avatar"><img src="img/ava-1.jpg" alt="avatar"></div>
+                            <div class="my-id">
+                                <p>@kanaiino</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="video-guide">
+                        <iframe class="video-guide" src="https://www.youtube.com/embed/_ooNeWeCqTM?si=PeRM5Amrp0mBtJKX"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="block_info">
+                <div class="link-section">
+                    <h2>Быстрый поиск</h2>
+                    <div class="link-items">
+                        <a href="#frame" class="link-item"><img src="icon/search.svg" alt="">рамки</a>
+                        <a href="#" class="link-item"><img src="icon/search.svg" alt="">фоны</a>
+                        <a href="#" class="link-item"><img src="icon/search.svg" alt="">фоны мини-профиля</a>
+                        <a href="#" class="link-item"><img src="icon/search.svg" alt="">особый профиль</a>
+                        <a href="#" class="link-item"><img src="icon/search.svg" alt="">значки</a>
+                        <a href="#" class="link-item"><img src="icon/search.svg" alt="">иллюстрация</a>
+                        <i class="fa fa-youtube-play" aria-hidden="true" color="#fff"></i>
+                    </div>
+                </div>
+                <div class="info-img">
+                    <img src="img/bg-1.jpg" alt="img" class="info-img-item">
+                </div>
+                <div id="copy" class="copy">
+                    <h2>Текст для копирования</h2>
+                    <div class="copy-section">
+                        <div class="copy-item">
+                            <h3>Невидимый ник</h3>
+                            <div class="copy-item-txt">
+                                <input type="text" value=" ๋" id="invisible-nickname" readonly class="copy-btn">
+                                <button onclick="myFunction('invisible-nickname')" class="copy-btn">Copy text</button>
+                            </div>
+                            <a href="https://pastebin.com/LDRPsipi" class="text-hide" target="_blank">резерв</a>
+                        </div>
+                        <div class="copy-item">
+                            <h3>Невидимый символ</h3>
+                            <div class="copy-item-txt">
+                                <input type="text" value="⁣" id="invisible-symbol" readonly class="copy-btn">
+                                <button onclick="myFunction('invisible-symbol')" class="copy-btn">Copy text</button>
+                            </div>
+                            <a href="https://pastebin.com/uLeXE6gn" class="text-hide" target="_blank">резерв</a>
+                        </div>
+                        <div class="copy-item">
+                            <h3>Бесконечная иллюстрация</h3>
+                            <div class="copy-item-txt">
+                                <input type="text"
+                                    value='document.getElementsByName("image_width")[0].value = 9999;document.getElementsByName("image_height")[0].value = 1;'
+                                    id="endless-illustration" readonly class="copy-btn">
+                                <button onclick="myFunction('endless-illustration')" class="copy-btn">Copy text</button>
+                            </div>
+                            <a href="https://pastebin.com/5xA1UjdY" class="text-hide" target="_blank">резерв</a>
+                        </div>
+                        <div class="copy-item">
+                            <h3>Удаление значка</h3>
+                            <div class="copy-item-txt">
+                                <input type="text"
+                                    value='var access_token = ""; var badgeid = 0; if (window.location.href.indexOf("steampowered") > -1) {access_token = $J("[data-loyaltystore]").data("loyaltystore").webapi_token;} else if(window.location.href.indexOf("steamcommunity") > -1) {access_token = JSON.parse($J("#profile_edit_config").attr("data-profile-edit")).webapi_token; SetFavoriteFeaturedBadge(access_token, badgeid);} else {console.log("go to: https://store.steampowered.com/points/shop or https://steamcommunity.com/my/edit/info"); SetFavoriteFeaturedBadge(access_token, badgeid);} function SetFavoriteFeaturedBadge(access_token, badgeid) {$J.post( "ссылка", {access_token: access_token, badgeid: badgeid});}'
+                                    id="removing-an-icon" readonly class="copy-btn">
+                                <button onclick="myFunction('removing-an-icon')" class="copy-btn">Copy text</button>
+                            </div>
+                            <a href="https://pastebin.com/6CrLxR7x" class="text-hide" target="_blank">резерв</a>
+                        </div>
+                        <div class="copy-item">
+                            <h3
+                                title='⁣     Скопируйте текст в пустое окно "Имя профиля" и после напишите ваш ник (Steam)'>
+                                Ник после даты*</h3>
+                            <div class="copy-item-txt">
+                                <input type="text" value="󠀡󠀡󠀡󠀡⁧⁧" id="nickname-after-the-date" readonly
+                                    class="copy-btn">
+                                <button onclick="myFunction('nickname-after-the-date')" class="copy-btn">Copy
+                                    text</button>
+                            </div>
+                            <a href="https://pastebin.com/nmArntGY" class="text-hide" target="_blank">резерв</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_main">
+            <div class="section-frame" id="frame">
+                <h1 class="main-title">Рамки</h1>
+                <div class="main-items">
+                    <div class="main-item">
+                        <div class="item-img frame">
+                            <a href="https://store.steampowered.com/points/shop/app/1174640/reward/163580"
+                                target="_blank"><img
+                                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1174640/dd913a7403157c3a562c78bd97f54e95d4cc3cb9.png"
+                                    alt="frame" class="ava-3"></a>
+
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/1174640/reward/163580"
+                                    class="txt-title" target="_blank">ARCADIA FALLEN PROFILE FRAME</a>
+                                <a href="https://store.steampowered.com/points/shop/app/1174640" class="text-hide"
+                                    target="_blank">Arcadia Fallen</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="item-img frame">
+                            <a href="https://store.steampowered.com/points/shop/app/251110/reward/124609"
+                                target="_blank"><img
+                                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/251110/6e7e7168dc57947b87333038e60b397af824b0bf.png"
+                                    alt="frame" class="ava-2"></a>
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/251110/reward/124609"
+                                    class="txt-title" target="_blank">OTHER SIDE</a>
+                                <a href="https://store.steampowered.com/points/shop/app/251110" class="text-hide"
+                                    target="_blank">INFRA</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="item-img frame">
+                            <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                target="_blank"><img
+                                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/423910/2b070cb7e34b57fb61609409dcc9c867d62c513a.png"
+                                    alt="frame" class="ava-1"></a>
+
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                    class="txt-title" target="_blank">PIXELATED FRAME - BLACK</a>
+                                <a href="https://store.steampowered.com/points/shop/app/423910" class="text-hide"
+                                    target="_blank">Mangavania</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wallpaper" id="wallpaper">
+                <h1 class="main-title">Фоны</h1>
+                <div class="main-items wallpaper-items">
+                    <div class="items-left">
+                        <div class="main-item">
+                            <div class="item-img wallpaper">
+                                <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                    target="_blank"><img
+                                        src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/562260/6b71ae5b7c8a314d918e1610504eaf085571c2ce.jpg"
+                                        alt="wallpaper"></a>
+                            </div>
+                            <div class="item-txt">
+                                <div class="item-txt_title">
+                                    <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                        class="txt-title" target="_blank">BLACK</a>
+                                    <a href="https://store.steampowered.com/app/562260/WAVESHAPER/" class="text-hide"
+                                        target="_blank">WAVESHAPER</a>
+                                </div>
+                                <div class="item-txt_info">
+                                    <p>1. Покупаем игру: <a href="https://store.steampowered.com/app/562260/WAVESHAPER/"
+                                            target="_blank">WAVESHAPER</a></p>
+                                    <p>2. Наигрываем 2 часа</p>
+                                    <p>3. Покупаем фон: <a
+                                            href="https://store.steampowered.com/points/shop/app/562260/reward/53923"
+                                            target="_blank">BLACK</a></p>
+                                </div>
+                                <div class="item-txt_subtitle">
+                                    <h3>Кошелёк Steam: ~150р</h3>
+                                    <h3>Очки Steam: 500</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-img-bg">
+                            <img src="img/bg-3.jpg" alt="img" class="main-img-bg-1">
+                        </div>
+                    </div>
+                    <div class="items-right">
+                        <div class="main-item">
+                            <div class="item-img wallpaper">
+                                <a href="https://steamcommunity.com/market/listings/753/562260-Black"
+                                    target="_blank"><img
+                                        src="https://cdn.steamstatic.com/steamcommunity/public/images/items/562260/6b71ae5b7c8a314d918e1610504eaf085571c2ce.jpg"
+                                        alt="wallpaper"></a>
+                            </div>
+                            <div class="item-txt">
+                                <div class="item-txt_title">
+                                    <a href="https://steamcommunity.com/market/listings/753/562260-Black"
+                                        class="txt-title" target="_blank">Black</a>
+                                    <a href="https://store.steampowered.com/app/562260/WAVESHAPER/" class="text-hide"
+                                        target="_blank">WAVESHAPER</a>
+                                </div>
+                                <div class="item-txt_subtitle">
+                                    <h3>Кошелёк Steam: ~650р</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-item">
+                            <div class="item-img wallpaper">
+                                <a href="https://steamcommunity.com/market/listings/753/515040-Deplorable"
+                                    target="_blank"><img
+                                        src="https://cdn.steamstatic.com/steamcommunity/public/images/items/515040/5bdf2584e8279daad2246bf35b7de0758e77810f.jpg"
+                                        alt="wallpaper"></a>
+                            </div>
+                            <div class="item-txt">
+                                <div class="item-txt_title">
+                                    <a href="https://steamcommunity.com/market/listings/753/515040-Deplorable"
+                                        class="txt-title" target="_blank">Deplorable</a>
+                                    <a href="https://store.steampowered.com/app/515040/Make_America_Great_Again_The_Trump_Presidency/"
+                                        class="text-hide" target="_blank">Make America Great Again: TTP</a>
+                                </div>
+                                <div class="item-txt_subtitle">
+                                    <h3>Кошелёк Steam: ~500р</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-item">
+                            <div class="item-img wallpaper">
+                                <a href="https://steamcommunity.com/market/listings/753/542340-Slingshot"
+                                    target="_blank"><img
+                                        src="https://cdn.steamstatic.com/steamcommunity/public/images/items/542340/adfa0576f5ba9f1a787e194fea76bfb05182e269.jpg"
+                                        alt="wallpaper"></a>
+                            </div>
+                            <div class="item-txt">
+                                <div class="item-txt_title">
+                                    <a href="https://steamcommunity.com/market/listings/753/542340-Slingshot"
+                                        class="txt-title" target="_blank">Slingshot</a>
+                                    <a href="https://store.steampowered.com/app/542340/Slingshot_people/"
+                                        class="text-hide" target="_blank">Slingshot people</a>
+                                </div>
+                                <div class="item-txt_subtitle">
+                                    <h3>Кошелёк Steam: ~10р</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-item">
+                            <div class="item-img wallpaper">
+                                <a href="https://steamcommunity.com/market/listings/753/400740-Funeral%20flowers"
+                                    target="_blank"><img
+                                        src="https://cdn.steamstatic.com/steamcommunity/public/images/items/400740/7c6eccf699397b15c127f5a3c3f98ede89aad0c2.jpg"
+                                        alt="wallpaper"></a>
+                            </div>
+                            <div class="item-txt">
+                                <div class="item-txt_title">
+                                    <a href="https://steamcommunity.com/market/listings/753/400740-Funeral%20flowers"
+                                        class="txt-title" target="_blank">Funeral flowers</a>
+                                    <a href="https://store.steampowered.com/app/400740/VERGELost_chapter/"
+                                        class="text-hide" target="_blank">VERGE:Lost chapter</a>
+                                </div>
+                                <div class="item-txt_subtitle">
+                                    <h3>Кошелёк Steam: ~169р</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-mini-wallpaper" id="mini-wallpaper">
+                <h1 class="main-title">Рамки</h1>
+                <div class="main-items">
+                    <div class="main-item">
+                        <div class="item-img mini-wallpaper">
+                            <a href="https://store.steampowered.com/points/shop/app/1263950/reward/78805"
+                                target="_blank"><img
+                                    src="url(../../../images/applications/store/miniprofile.png?v=35c08849653f634da38b35b5c45386e2)"
+                                    alt="mini-wallpaper"></a>
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/1263950/reward/78805"
+                                    class="txt-title" target="_blank">ARCADIA FALLEN PROFILE FRAME</a>
+                                <a href="https://store.steampowered.com/points/shop/app/1174640" class="text-hide"
+                                    target="_blank">Arcadia Fallen</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="item-img mini-wallpaper">
+                            <a href="https://store.steampowered.com/points/shop/app/251110/reward/124609"
+                                target="_blank"><img
+                                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/251110/6e7e7168dc57947b87333038e60b397af824b0bf.png"
+                                    alt="mini-wallpaper"></a>
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/251110/reward/124609"  target="_blank">OTHER SIDE</a>
+                                <a href="https://store.steampowered.com/points/shop/app/251110" class="text-hide"
+                                    target="_blank">INFRA</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="item-img mini-wallpaper">
+                            <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                target="_blank"><img
+                                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/423910/2b070cb7e34b57fb61609409dcc9c867d62c513a.png"
+                                    alt="mini-wallpaper"></a>
+                        </div>
+                        <div class="item-txt">
+                            <div class="item-txt_title">
+                                <a href="https://store.steampowered.com/points/shop/app/423910/reward/201448"
+                                    class="txt-title" target="_blank">PIXELATED FRAME - BLACK</a>
+                                <a href="https://store.steampowered.com/points/shop/app/423910" class="text-hide"
+                                    target="_blank">Mangavania</a>
+                            </div>
+                            <div class="item-txt_subtitle">
+                                <h3>Очки Steam: 2000</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </main>
+    <script src="./script/nav.js"></script>
+    <script src="./script/copy.js"></script>
+</body>
+
+</html>
