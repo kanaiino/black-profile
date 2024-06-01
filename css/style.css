@@ -140,6 +140,7 @@ main .container {padding-top: 54px;}
 .top img {
     width: 480px;
     height: 720px;
+    margin-top: 3rem;
 }
 .title-section {
     display: flex;
@@ -332,9 +333,9 @@ main .container {padding-top: 54px;}
     background-repeat: no-repeat;
     background-position: center;
 }
-.ava-1 {background-image: url(/img/ava-2.jpg);}
-.ava-2 {background-image: url(/img/ava-3.jpg);}
-.ava-3 {background-image: url(/img/ava-4.jpg);}
+.ava-1 {background-image: url(../img/ava-2.jpg);}
+.ava-2 {background-image: url(../img/ava-3.jpg);}
+.ava-3 {background-image: url(../img/ava-4.jpg);}
 
 .wallpaper img {
     width: 320px;
