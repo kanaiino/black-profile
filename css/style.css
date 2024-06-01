@@ -42,6 +42,9 @@ h3, p, .txt-title {font-size: 1.17rem;}
 .text-hide:hover {
     text-decoration: underline;
 }
+.video-block::-webkit-media-controls {
+    display: none;
+  }
 /* линия */
 .hr-line {border-top: 1px solid var(--color-light);}
 
@@ -68,7 +71,7 @@ body {
     background-color: var(--color-dark);
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     transition: transform 0.2s;
 }
 
@@ -290,7 +293,7 @@ main .container {padding-top: 54px;}
 
 /* Рамки */
 
-.section-frame, .section-wallpaper, .section-mini-wallpaper {
+.section-frame, .section-wallpaper, .section-mini-wallpaper, .section-game-profile {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -371,22 +374,38 @@ main .container {padding-top: 54px;}
     justify-content: space-between;
     gap: 1rem;
 }
-.mini-wallpaper img {
+.mini-wallpaper video {
     width: 320px;
-    height: 150px;
+    height: 100%;
     background-size: 130px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.game-profile-items .main-item {
+    width: 66%;
+}
+
+.game-profile video {
+    width: 795px;
+}
+.game-profile-items {
+    display: flex;
+    justify-content: center;
+}
 
 
+.game-profile-items {
+    background-image: url(../img/snake-1.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position-y: bottom;
+}
 
-
-
-
-
-
-
-
-
+.section-game-profile {
+    background-image: url(../img/snake-2.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: bottom;
+    background-position-x: right;
+}
