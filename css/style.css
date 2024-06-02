@@ -39,7 +39,7 @@ h3, p, .txt-title {font-size: 1.17rem;}
     font-weight: 500;
     color: var(--color-light);
 }
-.text-hide:hover {
+.underline:hover {
     text-decoration: underline;
 }
 .video-block::-webkit-media-controls {
@@ -293,7 +293,7 @@ main .container {padding-top: 54px;}
 
 /* Рамки */
 
-.section-frame, .section-wallpaper, .section-mini-wallpaper, .section-game-profile {
+.section-frame, .section-wallpaper, .section-mini-wallpaper, .section-game-profile, .section-badges {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -394,7 +394,6 @@ main .container {padding-top: 54px;}
     justify-content: center;
 }
 
-
 .game-profile-items {
     background-image: url(../img/snake-1.png);
     background-repeat: no-repeat;
@@ -410,16 +409,20 @@ main .container {padding-top: 54px;}
     background-position-x: right;
 }
 
+.badges-items .main-item {
+    width: 14rem;
+}
 
+.badges-items {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 
-
-
-
-
-
-
-
-
+.badges img, .badges video {
+    width: 80px;
+    height: 80px;
+}
 
 
 
