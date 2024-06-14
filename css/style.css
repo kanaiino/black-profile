@@ -334,7 +334,7 @@ main .container {padding-top: 54px;}
 
 /* Рамки */
 
-.section-frame, .section-wallpaper, .section-mini-wallpaper, .section-game-profile, .section-badges {
+.section-frame, .section-wallpaper, .section-mini-wallpaper, .section-game-profile, .section-badges, .section-disclaimer {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -449,7 +449,9 @@ display: flex;
 
 .badges-guide-items .main-item .item-txt_info{width: 34rem;}
 
-
+.badges-guide-copy {
+    height: 22px;
+}
 
 
 
@@ -509,3 +511,32 @@ display: flex;
 .btn-up_hiding {
   opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-disclaimer {margin: 7rem 0;}
